@@ -16,7 +16,25 @@ It also adds some patches for quality of life, all of which can be enabled/disab
 Cyber Engine Tweaks tracks the current release of Cyberpunk 2077 closely.
 The current release of CET is available from the releases page: 
 [![All Releases](https://img.shields.io/github/downloads/maximegmd/CyberEngineTweaks/total)](https://github.com/maximegmd/CyberEngineTweaks/releases).
+## Fork Features
 
+This fork adds native Arabic (RTL) text rendering support for Lua mods using the CET ImGui wrappers.
+
+### Features
+
+- Native Arabic RTL rendering.
+- Automatic bidirectional (BiDi) text processing.
+- Arabic glyph shaping using HarfBuzz.
+- FriBidi integration for correct text direction.
+- Hidden ImGui IDs (`##` / `###`) remain fully compatible.
+- Works automatically with Lua mods without requiring changes to the mods themselves.
+
+### Credits
+
+- Arabic RTL implementation: Moaz Emad
+- HarfBuzz
+- FriBidi
+- Noto Sans Arabic
 ### Current patches
 
 | Patch      | Description     |
